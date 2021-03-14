@@ -1,6 +1,7 @@
 {% block article %}
     <div class="article">
         <h1>{{article.title}}</h1>
+        Keywords:
         {% for keyword in article.keywords %}
             <span>{{keyword}}</span>
         {% endfor %}
